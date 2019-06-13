@@ -13,6 +13,7 @@ namespace FlightAwareCore.Test
         readonly string _apiEnvVar = "FaKey";
         readonly string _usernameEnvVar = "FaUser";
         private FlightAwareService _flightAwareService;
+
         public FlightAwareServiceIntegrationTests()
         {
             var config = new ConfigurationBuilder()
