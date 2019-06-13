@@ -7,8 +7,10 @@ namespace FlightAware.Models
     {
         [DataMember(Name="manufacturer")]
         public string Manufacturer { get; set; }
+
         [DataMember(Name="type")]
         public string Type { get; set; }
+
         [DataMember(Name="description")]
         public string Description { get; set; }
 
